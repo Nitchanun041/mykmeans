@@ -20,6 +20,9 @@ st.set_page_config(page_title = "K-Means Clustering", layout = "centered")
 #set the title
 st.title("K-Means Clustering Visualizer by Nitchanun Benjawan")
 
+st.subheader("Example Data for Visualization")
+st.markdown("This demo uses example data (2D) to illustrate clustering results.")
+
 #load dataset
 X, _ = make_blobs(n_samples=300, centers=loaded_model.n_clusters, cluster_std=0.60, random_state=0)
 
