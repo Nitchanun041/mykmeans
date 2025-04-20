@@ -1,4 +1,6 @@
 streamlit
-pickle
-pyplot
+tensorflow
+matplotlib
+pillow
+numpy
 scikit-learn
